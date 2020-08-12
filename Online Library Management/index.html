@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Library Management System</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style type="text/css">
+ nav 
+   {
+    float: right;
+    word-spacing: 30px;
+    padding: 40px;
+   }
+
+nav li
+  {
+    display: inline-block;
+    line-height: 30px;
+  }
+</style>
+
+
+</head>
+
+
+
+<style type="text/css"></style>
+
+
+
+<body>
+    <div class="wrapper">
+
+
+         <header>
+         	<div class="logo">
+         	<img src="images/9.jpg">
+         	<h1 style="color: red;">WELCOME OT ONLINE LIBRARY OF UIT,BU</h1>
+            </div>
+         	<nav>
+         		<ul>
+         			<li><a href="index.html">HOME</a></li>
+         			<li><a href="books.html">BOOKS</a></li> 
+         			<li><a href="student_login.html">STUDENTS-LOGIN</a></li>
+                    <li><a href="">ADMIN-LOGIN</a></li>
+                    <li><a href="">FEEDBACK</a></li>
+         		</ul>
+         	</nav>
+         </header>
+     <section>
+        <div class="sec_img">
+        	
+          <div class="w3-content w3-section" style="width: 50%;">
+		     <img class="mySlides w3-animate-fading" src="images/a.jpg" style="width: 100%">
+		     <img class="mySlides w3-animate-fading" src="images/b.jpg" style="width: 100%">
+		     <img class="mySlides w3-animate-fading" src="images/c.jpg" style="width: 100%">
+		     <img class="mySlides w3-animate-fading" src="images/d.jpg" style="width: 100%">
+		
+	    </div>
+<script type="text/javascript">
+	var a=0;
+	carousel();
+
+
+	function carousel()
+	{
+		var i;
+		var x= document.getElementsByClassName("mySlides");
+
+
+		for (i=0; i<x.length; i++) 
+		{
+		  x[i].style.display="none";
+		}
+
+	    a++;
+	    if (a>x.length) {a=1}
+	    x[a-1].style.display= "block";
+	    setTimeout(carousel, 5000);
+
+	}
+</script>
+     <!--<div class="box">
+         		<br>
+         		<h1 style="text-align: center; font-size: 35px;">Welcome to Library</h1><br>
+         		<h1 style="text-align: center; font-size: 25px;">Opens at 09:00</h1><br>
+         		<h1 style="text-align: center;font-size: 25px;">Closes at 15:00</h1>		
+         	</div>-->
+         
+         	</div>
+         </section>
+         <footer>
+         	
+         	<p style="color: white;text-align: center;">
+         		<br>
+         		Email:&nbsp srijanjha1999@gmail.com<br><br>
+         		mobile:&nbsp &nbsp +91-99316******
+         	</p>
+         </footer>
+    </div>
+</body>
+</html>
